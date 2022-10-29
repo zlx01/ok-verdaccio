@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "crush": "npx crush"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ok-verdaccio": "^1.0.3"
+    "ok-verdaccio": "^1.0.5"
   }
 }

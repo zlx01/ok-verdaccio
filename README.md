@@ -1,4 +1,4 @@
-# Verdaccio
+# [Verdaccio](https://verdaccio.org/)
 
 A private npm registry.
 
@@ -118,5 +118,14 @@ npm publish
 ![image-20221029121710904](./assets/image-20221029121710904.png)
 
 
+两个问题：
+
+1. README不是跟随版本的，展示最新的。
+2. README中的图片引用失败。
 
 
+## unpublish
+
+```bash
+npm unpublish ok-verdaccio@1.0.5
+```

@@ -1,17 +1,20 @@
 {
   "name": "ok-verdaccio",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "测试verdaccio私有仓库",
   "repository": {
     "type": "git",
     "url": "https://github.com/zlx01/ok-verdaccio"
   },
   "main": "src/index.js",
+  "bin": {
+    "crush": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lee",
   "license": "ISC",
   "dependencies": {
     "dayjs": "^1.11.6",
